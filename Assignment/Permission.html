@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application for permission</title>
+    <style>
+        input[type="submit"],
+        input[type="file"]
+        {
+            background-color: red;
+            color: aliceblue;
+        
+        }
+    </style>
+</head>
+<body style="background-color:rgb(135, 210, 200) "> 
+    <h1><pre>                      For Permision To Date My Daughter</pre></h1>
+        <p><b>Note:</b> Form is to be completed at least 21 days prior to data</p>
+         <fieldset>
+            <legend><b>Personal Details:</b></legend>
+       <!--<label for="Personal Details">Personal Details</label><br><br>-->
+        <div>
+        <label for="name">Name:</label> 
+        <input type="text" placeholder="enter the name" required><br><br>
+        <label for="adaress">Address:</label>
+        <input type="text" placeholder="enter here address" required><br><br>
+         <label for="email">EMAIL</label>
+         <input type="email" placeholder="enter here email" required><br><br>
+         <label for="phone no">Phone No.</label>
+         <input type="number" placeholder=" enter the phone no"><br><br>
+         <label for="iq">IQ</label>
+         <input type="text" placeholder="enter here iq level" required><br><br>
+         </div>
+
+        <label for="Gender:">Gender:</label></pr><br>
+        <input type="radio" value="male" name="Gender">Male<br>
+        <input type="radio" value="female" name="Gender">Female<br>
+        <input type="radio" value="others" name="Gender">Others<br>
+
+        <label for="Date of Proposed Outing">Date of Proposed outing</label>
+        <input type="date" placeholder="dd/mm/yy">
+         </fieldset><br>
+
+         <fieldset>
+        <label for="check all that apply">Check All That Apply</label><br><br>
+        <input type="checkbox">I have tattoos <br>
+        <input type="checkbox">I am more than 2 years older than my daughter.<br>
+        <input type="checkbox">I own a panel van.<br>
+        <input type="checkbox">I work full time.<br>
+        <input type="checkbox">My parents are rich.<br>
+        <input type="checkbox">Is the date at lit public location.<hr>
+         </fieldset><br>
+
+         
+      <!--  <label for="Political persuation">Political Persuation </label>-->
+      <fieldset>
+      Political Persuasion<select name="Political_persuation" id="">
+        <option value="">--select a wing</option>
+        <option value="a_wing">A Wing</option>
+        <option value="b_wing">B Wing</option>
+        <option value="c_wing">C Wing</option>
+        </select>
+
+        Education level completed<select name="Education_level_completed" id="">
+        <option value="">--select a univercity</option>
+        <option value="singhania_univercity">Singhania Univercity</option>
+        <option value="gujarat_univercity">Gujarat Univercity</option>
+        <option value="GTU">GTU</option>
+        </select>
+        </fieldset>
+
+        <p>
+            <fieldset>
+                <legend><b>Essay Selection</b></legend></p>
+                <p>Write 50 words to date my daughter</p>
+                <textarea name="address" id="address" cols="100" rows="6" placeholder="enter text here"></textarea>
+                <p>Please upload contact details for 2 references:</p>
+                <textarea name="address" id="address" cols="100" rows="6" placeholder="enter text here"></textarea>
+                <p>Upload police clearance certificate, Bank statement and Medical certificate here.<input type="file" value="Attach_Files"></p> 
+            </fieldset><br>
+               <input type="submit" value="send your Application">         
+</body>
+</html>

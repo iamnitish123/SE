@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Student form
+    </title>
+    <link rel="stylesheet" href="medical_form_style.css">
+</head>
+<body>
+    <div class="container">
+    <h2> Registration Form</h2>
+    <p>First Name:<input type="text" name="fname" required>*</p>
+    <p>Last Name:<input type="text" name="lname">*</p>
+    <p>Father Name:<input type="text" name="fathername" required>*</p>
+    <p>Date of Birth<input type="date" name="dob" required>*</p>
+    <p>Tel<br>
+        <input type="tel" name="telephone_no" required>*</p>
+    <P>High School Name<br>
+        <input type="text" name="hsc_name" required>*</P>
+    <p>Permanent Address
+        <br><textarea name="address" id="address" cols="30" rows="4"></textarea></p>
+    <p>Your Level:<select name="your_level" id="your_level" required></p>
+        <option value="">--Select your level--</option>
+        <option value="1st_year">1st Year</option>
+        <option value="2nd_year">2nd Year</option>
+        <option value="3rd_year">3rd Year</option>
+    </select>
+    <p>Email:<input type="email" name="email" required>*</p>
+    <p>Degree Program<select name="degree_program" id="degree_program" required></p>
+        <option value="">--Select Program--</option>
+        <option value="bs_in_pre_med_physics">BS in PRE-MED Physics</option>
+        <option value="bs_in_pre_med_chemistry">BS in PRE-MED Chemistry</option>
+        <option value="bs_in_pre_med_biology">BS in PRE-MED Biology</option>
+        <option value="ms_in_pre_med_physics">MS in PRE-MED Physics</option>
+        <option value="ms_in_pre_med_chemistry">MS in PRE-MED Chemistry</option>
+        <option value="ms_in_pre_med_biology">MS in PRE-MED Biology</option>
+        </select>
+        <p> <input type="submit" value="Register"></p>
+    
+</body>
+</html>
